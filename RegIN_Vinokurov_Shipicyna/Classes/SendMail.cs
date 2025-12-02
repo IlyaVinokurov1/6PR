@@ -14,7 +14,7 @@ namespace RegIN.Classes
                 EnableSsl = true,
             };
 
-            smtpClient.Send("landaxer@yandex.ru", To, "Проект RegIn", Message);
+            smtpClient.Send("Ilyamisti@yandex.ru", To, "Проект RegIn", Message);
         }
     }
 }
